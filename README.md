@@ -81,8 +81,6 @@ Visit the Airflow UI at [http://localhost:8080](http://localhost:8080)
 * [ ] Build a basic ML pipeline DAG
 * [ ] Add monitoring and logging
 * [ ] Version control models with MLflow
-* [ ] Deploy to cloud (GCP / AWS / Azure)
-* [ ] Scale with KubernetesExecutor
 
 ---
 
@@ -95,8 +93,4 @@ If you’re learning along with me, feel free to fork, star ⭐, or open issues 
 ## 📜 License
 
 MIT License – see [LICENSE](./LICENSE) for details.
-
----
-
-Let me know if you'd like to add badges (CI/CD, Docker, etc.), examples of DAGs, or links to blog posts or tutorials.
 
