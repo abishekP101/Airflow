@@ -1,0 +1,11 @@
+{
+  "name": "Airflow Dev",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [8080, 5555, 8793],
+  "postCreateCommand": "pip install apache-airflow==2.9.0 --constraint https://raw.githubusercontent.com/apache/airflow/constraints-2.9.0/constraints-3.10.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
